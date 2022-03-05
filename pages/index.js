@@ -10,13 +10,13 @@ export default function Home() {
           content="The Minecraft notes of Alan W. Smith"
         />
       </Head>
-      <main>
-        <h3>
-          TODO: Add aqua affinity as one you want since it makes mining
-          underwater faster
-        </h3>
+      <main className="mx-auto max-w-screen-lg">
         <h1>Minecraft notes</h1>
-        <h1>Misc</h1>
+        <p>
+          This is my very incomplete set of notes and scribbles for the next
+          time I play Minecraft
+        </p>
+        <h2>Misc</h2>
         <ul>
           <li>
             REMEBER: You can combine lower power books/tools into higher level
@@ -51,6 +51,14 @@ export default function Home() {
         <h2>Armor</h2>
         <ul>
           <li>Fire Protection IV</li>
+          <li>Unbreaking III</li>
+          <li>Mending</li>
+          <li>Probably something else</li>
+        </ul>
+        <h2>Helmet</h2>
+        <ul>
+          <li>Respiration</li>
+          <li>Aqua Affinity</li>
         </ul>
         <h2>Librarians</h2>
         <ul>
@@ -257,8 +265,8 @@ export default function Home() {
         <h3>Misc</h3>
         <ul>
           <li>
-            Saw a note that spiders can&apos;t crawl up Soul Sand. In at least 1.18,
-            that&apos;s not true
+            Saw a note that spiders can&apos;t crawl up Soul Sand. In at least
+            1.18, that&apos;s not true
           </li>
           <li>
             Armorers and Toolsmiths will give you 12 emeralds for iron on every
@@ -316,6 +324,13 @@ export default function Home() {
           the next level
         </p>
       </main>
+      <footer className="text-center pt-8 pb-4">
+        made by <a href="https://twitter.com/TheIdOfAlan">alan w. smith</a>
+        <br />
+        who has a <a href="https://www.alanwsmith.com">website</a> and a{' '}
+        <a href="https://podcast.alanwsmith.com/">podcast</a> <br />
+        among other <a href="https://links.alanwsmith.com">things</a>
+      </footer>
     </div>
   )
 }

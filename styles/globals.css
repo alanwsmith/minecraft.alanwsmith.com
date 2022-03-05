@@ -3,12 +3,24 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    background-color: #1f1a38;
+    @apply text-lg;
+    color: #9c914f;
+  }
   h1 {
-    @apply text-2xl;
+    @apply text-3xl;
+    @apply mt-3;
+    @apply font-bold;
+    color: #c83e4d;
   }
   h2 {
-    @apply text-xl;
+    @apply text-2xl;
+    @apply mt-3;
+    @apply font-bold;
+    color: #c83e4d;
+  }
+  a {
+    color: #c2aff0;
   }
 }
-
-
