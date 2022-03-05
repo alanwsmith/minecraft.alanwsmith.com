@@ -216,7 +216,7 @@ export default function Home() {
         </ul>
         <h3>Farm Notes</h3>
         <ul>
-          <li>Mobs don't spawn within 24 blocks of the player</li>
+          <li>Mobs don&apos;t spawn within 24 blocks of the player</li>
           <li>Most mobs outside 128 bocks despawn instantly</li>
         </ul>
         <h3>Sheep</h3>
@@ -252,13 +252,13 @@ export default function Home() {
           <li>[x] Purple - (Red + Blue)</li>
           <li>[x] Red - (Dye from flower)</li>
           <li>[x] Yellow - (Dye from flower)</li>
-          <li>[x> White - (Defaul)</li>
+          <li>[x] White - (Default)</li>
         </ul>
         <h3>Misc</h3>
         <ul>
           <li>
-            Saw a note that spiders can't crawl up Soul Sand. In at least 1.18,
-            that's not true
+            Saw a note that spiders can&apos;t crawl up Soul Sand. In at least 1.18,
+            that&apos;s not true
           </li>
           <li>
             Armorers and Toolsmiths will give you 12 emeralds for iron on every
